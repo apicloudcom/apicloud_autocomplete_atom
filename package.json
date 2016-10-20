@@ -2,13 +2,13 @@
   "name": "apicloud-autocomplete",
   "main": "./lib/apicloud-autocomplete",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "APICloud Autocomplete For Atom.",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "apicloud-autocomplete:toggle"
   },
-  "repository": "https://github.com/atom/apicloud-autocomplete",
+  "repository": "https://github.com/apicloudcom/apicloud_autocomplete_atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
