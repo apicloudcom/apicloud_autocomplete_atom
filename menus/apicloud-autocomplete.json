@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle apicloud-autocomplete",
+        "command": "apicloud-autocomplete:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "apicloud-autocomplete",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "apicloud-autocomplete:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
