@@ -2,17 +2,28 @@
   "name": "apicloud-autocomplete",
   "main": "./lib/apicloud-autocomplete",
   "version": "0.0.0",
-  "description": "APICloud Autocomplete For Atom.",
+  "description": "APICloud 语法提示与自动补全",
   "keywords": [
+    "APICloud",
+    "语法提示",
+    "autocomplete",
+    "自动补全",
+    "snippet"
   ],
-  "activationCommands": {
-    "atom-workspace": "apicloud-autocomplete:toggle"
-  },
   "repository": "https://github.com/apicloudcom/apicloud_autocomplete_atom",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "immutable": "^3.8.1",
+    "normalizr": "^2.2.1"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
   }
 }
