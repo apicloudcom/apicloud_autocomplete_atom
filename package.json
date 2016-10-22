@@ -1,7 +1,7 @@
 {
   "name": "apicloud-autocomplete",
   "main": "./lib/apicloud-autocomplete",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "APICloud 语法提示与自动补全",
   "keywords": [
     "APICloud",
